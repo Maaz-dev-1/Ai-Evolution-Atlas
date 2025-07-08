@@ -5,7 +5,9 @@
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <title>AI Evolution Atlas | Tracing the Journey of Artificial Intelligence</title>
      <link href="https://fonts.googleapis.com/css2?family=Orbitron:wght@400;700;900&family=Inter:wght@300;400;500;600;700&display=swap" rel="stylesheet">
+     <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.4.0/css/all.min.css">
     <link rel="stylesheet" href="style.css">
+    <link rel="icon" type="image/png"  href="brain-solid.png">
 </head>
 <body>
     <img class="image-gradient" src="gradient.png" alt="gradient">
@@ -25,7 +27,7 @@
                     <li><a href="index.html" class="active">Home</a></li>
                     <li><a href="timeline.html">Timeline</a></li>
                     <li><a href="future.html">Future</a></li>
-                    <li><a href="about.html">About</a></li>
+                    <li><a href="#about">About</a></li>
                     <li><a href="contact.html">Contact</a></li>
                 </ul>
             </nav>
@@ -328,7 +330,8 @@
             <div class="footer-grid">
                 <div class="footer-col">
                     <h4>AI Evolution Atlas</h4>
-                    <p>Documenting the journey of artificial intelligence through comprehensive research and accessible education.</p>
+                    <p>Documenting the journey of artificial intelligence through comprehensive research 
+                        and accessible education.</p>
                     <div class="social-links">
                         <a href="#"><i class="fab fa-twitter"></i></a>
                         <a href="#"><i class="fab fa-linkedin-in"></i></a>
@@ -369,7 +372,8 @@
                 </div>
             </div>
              <div class="footer-bottom">
-                <p>&copy; 2025 AI Evolution Atlas. All rights reserved. | Pure HTML/CSS Project. | Created by MR.MAAZ</p>
+                <p>&copy; 2025 AI Evolution Atlas. All rights reserved. | Pure HTML/CSS Project.
+                         | Created by MR.MAAZ</p>
             </div>
         </div>
     </footer>
@@ -383,29 +387,6 @@
             <a href="contact.html" class="page-btn">5</a>
         </div>
     </div>
-    <script>
-        // Header scroll effect
-        window.addEventListener('scroll', function() {
-            const header = document.getElementById('header');
-            if (window.scrollY > 50) {
-                header.classList.add('scrolled');
-            } else {
-                header.classList.remove('scrolled');
-            }
-        });
-
-        // Current page highlight
-        document.addEventListener('DOMContentLoaded', function() {
-            const currentPage = window.location.pathname.split('/').pop();
-            const navLinks = document.querySelectorAll('nav a');
-            
-            navLinks.forEach(link => {
-                if (link.getAttribute('href') === currentPage) {
-                    link.classList.add('active');
-                }
-            });
-        });
-    </script>
 <script type="module" src="https://unpkg.com/@splinetool/viewer@1.10.22/build/spline-viewer.js">
 </script>
 
