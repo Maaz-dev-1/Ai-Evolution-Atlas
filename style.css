@@ -1,6 +1,6 @@
 /* CSS Variables for Ultra Dark Theme */
 :root {
-    --bg-primary:black;
+    --bg-primary:rgb(0, 0, 0);
     --bg-secondary: #111111;
     --bg-card: #1a1a1a;
     --bg-card-hover: #252525;
